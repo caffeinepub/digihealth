@@ -1,0 +1,78 @@
+import type { HealthRecord } from "../types/records";
+
+export const SAMPLE_RECORDS: HealthRecord[] = [
+  {
+    id: "1",
+    name: "CBC Blood Panel",
+    date: "2026-01-15",
+    category: "Lab Results",
+    provider: "Dr. Chen",
+    status: "Active",
+    notes: "Complete blood count — all values within normal range.",
+  },
+  {
+    id: "2",
+    name: "Lisinopril Prescription",
+    date: "2026-02-01",
+    category: "Prescriptions",
+    provider: "Dr. Martinez",
+    status: "Active",
+    notes: "10mg daily for blood pressure management. 90-day supply.",
+  },
+  {
+    id: "3",
+    name: "Chest X-Ray",
+    date: "2025-12-10",
+    category: "Imaging",
+    provider: "Radiology Dept",
+    status: "Active",
+    notes: "Routine chest X-ray. No abnormalities detected.",
+  },
+  {
+    id: "4",
+    name: "Annual Flu Vaccine",
+    date: "2025-10-05",
+    category: "Immunizations",
+    provider: "Dr. Patel",
+    status: "Active",
+    notes: "Seasonal influenza vaccine — quadrivalent formula.",
+  },
+  {
+    id: "5",
+    name: "Follow-up Consultation Notes",
+    date: "2026-03-01",
+    category: "Doctor Notes",
+    provider: "Dr. Chen",
+    status: "Active",
+    notes:
+      "Follow-up for hypertension management. BP 128/82. Continue current medication.",
+  },
+  {
+    id: "6",
+    name: "Lipid Panel Results",
+    date: "2025-09-20",
+    category: "Lab Results",
+    provider: "Dr. Chen",
+    status: "Archived",
+    notes: "Total cholesterol 195 mg/dL. LDL 115, HDL 58. Borderline LDL.",
+  },
+  {
+    id: "7",
+    name: "Amoxicillin Prescription",
+    date: "2025-11-14",
+    category: "Prescriptions",
+    provider: "Dr. Williams",
+    status: "Archived",
+    notes: "500mg 3x daily for 10 days. Strep throat treatment.",
+  },
+  {
+    id: "8",
+    name: "Knee MRI Scan",
+    date: "2026-01-28",
+    category: "Imaging",
+    provider: "Radiology Dept",
+    status: "Active",
+    notes:
+      "Left knee MRI. Mild medial meniscus tear noted. Physical therapy recommended.",
+  },
+];

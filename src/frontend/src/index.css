@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("/assets/fonts/PlusJakartaSans.woff2") format("woff2");
+  font-weight: 300 700;
+  font-display: swap;
+}
+
+@layer base {
+  :root {
+    --radius: 0.75rem;
+
+    /* Page background light gray #F3F6F9 */
+    --background: 0.968 0.006 220;
+    --foreground: 0.18 0.012 255;
+
+    /* Card / white */
+    --card: 1 0 0;
+    --card-foreground: 0.18 0.012 255;
+
+    --popover: 1 0 0;
+    --popover-foreground: 0.18 0.012 255;
+
+    /* Primary = teal #14B8A6 */
+    --primary: 0.72 0.138 183;
+    --primary-foreground: 1 0 0;
+
+    /* Secondary = navy #0F3B63 */
+    --secondary: 0.28 0.07 250;
+    --secondary-foreground: 1 0 0;
+
+    --muted: 0.95 0.005 220;
+    --muted-foreground: 0.55 0.012 260;
+
+    /* Accent = hero aqua */
+    --accent: 0.96 0.025 190;
+    --accent-foreground: 0.18 0.012 255;
+
+    --destructive: 0.577 0.245 27.325;
+    --destructive-foreground: 1 0 0;
+
+    --border: 0.92 0.005 220;
+    --input: 0.92 0.005 220;
+    --ring: 0.72 0.138 183;
+
+    /* Teal accent for UI */
+    --teal: 0.72 0.138 183;
+    --teal-light: 0.92 0.06 183;
+    --navy: 0.28 0.07 250;
+    --hero-from: 0.962 0.025 186;
+    --hero-to: 0.948 0.03 170;
+
+    /* Status chips */
+    --status-active-bg: 0.94 0.06 160;
+    --status-active-text: 0.35 0.1 160;
+    --status-archived-bg: 0.93 0.008 220;
+    --status-archived-text: 0.45 0.012 260;
+
+    --chart-1: 0.72 0.138 183;
+    --chart-2: 0.28 0.07 250;
+    --chart-3: 0.6 0.12 160;
+    --chart-4: 0.65 0.15 230;
+    --chart-5: 0.75 0.1 140;
+
+    --sidebar: 1 0 0;
+    --sidebar-foreground: 0.18 0.012 255;
+    --sidebar-primary: 0.72 0.138 183;
+    --sidebar-primary-foreground: 1 0 0;
+    --sidebar-accent: 0.96 0.025 190;
+    --sidebar-accent-foreground: 0.18 0.012 255;
+    --sidebar-border: 0.92 0.005 220;
+    --sidebar-ring: 0.72 0.138 183;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: "Plus Jakarta Sans", "Inter", system-ui, sans-serif;
+  }
+}
