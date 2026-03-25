@@ -301,10 +301,6 @@ export default function App() {
             </span>
           </div>
           <div className="flex items-center gap-4">
-            <span className="inline-flex items-center gap-1">
-              🔒 HIPAA Compliant
-            </span>
-            <span>·</span>
             <a
               href={`https://caffeine.ai?utm_source=caffeine-footer&utm_medium=referral&utm_content=${encodeURIComponent(window.location.hostname)}`}
               target="_blank"

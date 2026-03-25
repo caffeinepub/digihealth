@@ -28,10 +28,6 @@ export default function LoginPage() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <div className="inline-flex items-center gap-2 bg-teal/10 text-teal rounded-full px-3 py-1 text-sm font-medium mb-6">
-              <Shield className="w-4 h-4" />
-              HIPAA-Compliant & Secure
-            </div>
             <h1 className="text-4xl md:text-5xl font-bold text-foreground leading-tight mb-4">
               Your Digital <span className="text-teal">Health Hub</span>
             </h1>
